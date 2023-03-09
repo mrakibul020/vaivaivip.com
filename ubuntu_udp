@@ -1,0 +1,15 @@
+#!/bin/bash
+#Script Variables
+HOST='174.138.184.18';
+USER='rfplusvi_vai';
+PASS='rfplusvi_vai';
+DBNAME='rfplusvi_vai';
+PORT_TCP='5666';
+PORT_UDP='5666';
+DOMAIN=vaivaivip.com
+CF_ZONE=340616caa4ddaf8ffc9903f65e392487
+CF_ID=mrakibul020@gmail.com
+CF_KEY=80489b082fb0cb9dc014b5838cc93e95452fe
+MYIP=$(wget -qO- icanhazip.com);
+server_ip=$(curl -s https://api.ipify.org)
+404: Not Found
